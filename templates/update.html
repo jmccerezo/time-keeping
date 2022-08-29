@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="/static/css/bootstrap.css">
+  <title>{{.Title}}</title>
+</head>
+
+<body>
+
+  <div class="container mt-4">
+    <div class="container p-5">
+      <div class="container-sm col-6 border p-5">
+        <h2>Update</h2>
+        <form method="post">
+            <div class="my-3">
+                <label for="uname" class="form-label">Username</label>
+                <input type="text" class="form-control" name="username" required>
+            </div>
+            <div class="my-3">
+                <label for="fname" class="form-label">First Name</label>
+                <input type="text" class="form-control" name="first_name" required>
+            </div>
+            <div class="my-3">
+                <label for="lname" class="form-label">Last Name</label>
+                <input type="text" class="form-control" name="last_name" required>
+            </div>
+          <button type="submit" class="btn btn-primary">Update</button>
+        </form>
+        <a href="/dashboard"><button type="button" class="btn btn-success mt-3">Back</button></a>
+      </div>
+    </div>
+  </div>
+  
+</body>
+
+</html>
