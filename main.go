@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/jmccerezo/time_keeping/views"
+	"github.com/jmccerezo/time-keeping/views"
 )
 
 func main() {

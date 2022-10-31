@@ -4,7 +4,7 @@ import (
 	"net/http"
 	"text/template"
 
-	"github.com/jmccerezo/time_keeping/models"
+	"github.com/jmccerezo/time-keeping/models"
 	"gorm.io/driver/mysql"
 	"gorm.io/gorm"
 )
